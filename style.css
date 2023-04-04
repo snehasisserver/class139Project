@@ -1,0 +1,57 @@
+body
+{
+background-position: center;
+background-size: cover;
+}
+.heading{
+width: 100%;
+text-align: left;
+border-radius: 20px;
+}
+.heading h3{
+    display: inline-block;
+    margin-left: 120px;
+}
+.heading button{
+    float: right;
+    margin-right: 120px;
+}
+#button1, #status{
+    font-size: 18px;
+}
+
+.modal-dialog{
+    width:50%;
+    
+}
+.modal-content{
+    padding: 10px;
+    border-radius: 30px;
+}
+#canvas{
+    border: 1px solid black;
+}
+#footer{
+    bottom: 0;
+    width: 100%;
+    color:black;
+    background-color: rgb(170, 169, 169);
+    height:fit-content;
+    padding:15px 0px 15px 0px;
+    position:fixed;
+}
+.modal-body ol li{
+    width: fit-content;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 5px;
+transition: 0.3s ease;
+}
+.modal-body ol li:hover{
+    background-color: rgb(73, 73, 73);
+    cursor:pointer;
+
+}
+button{
+    margin: 15px;
+}
